@@ -1,0 +1,65 @@
+[
+  {
+    "case": "tb_adc_select",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS selection: fast startup, gate priority, cleared inputs\n<project>\\sim\\regression\\tb_adc_select.sv:16: $finish called at 140000 (1ps)\n"
+  },
+  {
+    "case": "tb_controls",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS controls: button debounce/hold, frequency conversion, sweep and range switch\n<project>\\sim\\regression\\tb_controls.sv:18: $finish called at 860000 (1ps)\n"
+  },
+  {
+    "case": "tb_dds",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS DDS: reset, four waveforms, K8/K16 period count and DAC interface\n<project>\\sim\\regression\\tb_dds.sv:27: $finish called at 208300000 (1ps)\n"
+  },
+  {
+    "case": "tb_display",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS display: zero/no +3, eight digits, duty, overflow saturation\n<project>\\sim\\regression\\tb_display.sv:27: $finish called at 450000 (1ps)\n"
+  },
+  {
+    "case": "tb_duty",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS duty: 50/20/80/1 percent, startup, reset\n<project>\\sim\\regression\\tb_duty.sv:19: $finish called at 10630000 (1ps)\n"
+  },
+  {
+    "case": "tb_gate",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS gate: exact window, closing edge, empty window, reset\n<project>\\sim\\regression\\tb_gate.sv:20: $finish called at 350000 (1ps)\n"
+  },
+  {
+    "case": "tb_iir",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS iir: rise/fall, integer convergence, full scale\n<project>\\sim\\regression\\tb_iir.sv:20: $finish called at 4576000 (1ps)\n"
+  },
+  {
+    "case": "tb_period",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS period: delayed first edge, complete intervals, repeated window, timeout\n<project>\\sim\\regression\\tb_period.sv:19: $finish called at 22200000 (1ps)\n"
+  },
+  {
+    "case": "tb_top",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS top: reset, four modes, clock outputs, sweep enable without unknown outputs\n<project>\\sim\\regression\\tb_top.sv:24: $finish called at 30400000 (1ps)\n"
+  }
+]

@@ -1,0 +1,16 @@
+build/
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.vcd
+*.vvp
+*.bit
+*.dcp
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+Thumbs.db
+preview.html

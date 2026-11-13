@@ -1,0 +1,65 @@
+[
+  {
+    "case": "tb_adc_select",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_adc_select.sv:11: startup blocked on slow measurement:          0\n       Time: 60000  Scope: tb_adc_select\n"
+  },
+  {
+    "case": "tb_controls",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_controls.sv:15: sweep display not aligned\n       Time: 610000  Scope: tb_controls\n"
+  },
+  {
+    "case": "tb_dds",
+    "compile_returncode": 0,
+    "status": "passed",
+    "returncode": 0,
+    "output": "PASS DDS: reset, four waveforms, K8/K16 period count and DAC interface\n<project>\\sim\\regression\\tb_dds.sv:27: $finish called at 208300000 (1ps)\n"
+  },
+  {
+    "case": "tb_display",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_display.sv:15: low display digit           0 incorrect\n       Time: 11000  Scope: tb_display.check_number\n"
+  },
+  {
+    "case": "tb_duty",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_duty.sv:10: 50 percent measured as    44\n       Time: 1000000  Scope: tb_duty\n"
+  },
+  {
+    "case": "tb_gate",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_gate.sv:12: closing sample/window size wrong:          0\n       Time: 116000  Scope: tb_gate\n"
+  },
+  {
+    "case": "tb_iir",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_iir.sv:10: falling input wrapped upward:       3997 -> 1073744821\n       Time: 666000  Scope: tb_iir\n"
+  },
+  {
+    "case": "tb_period",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_period.sv:12: first partial interval counted:         60\n       Time: 700000  Scope: tb_period\n"
+  },
+  {
+    "case": "tb_top",
+    "compile_returncode": 0,
+    "status": "failed",
+    "returncode": 1,
+    "output": "FATAL: <project>\\sim\\regression\\tb_top.sv:16: unknown top output: seg=3f/00 bit=1/0 dac=xxX0 clocks=11 debug=1 pulse=0\n       Time: 250000  Scope: tb_top\n"
+  }
+]

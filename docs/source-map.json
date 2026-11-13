@@ -1,0 +1,192 @@
+[
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/adc_frequency_meter.v",
+    "sha256": "854287da141ad343d288790caf04fbc2913fa9251e91531bad439954a21f882c",
+    "local": "rtl/adc_frequency_meter.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行",
+      "移除5个重名辅助模块，选择独立文件定义"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "533a823076cf5fa858f5553c68abb94417e8864fe1d15c457da508a582edbfcb",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/adc_schmitt.v",
+    "sha256": "a702522139f76a1e090fbd14e6d0832dd851cfa89c153dcb5f87bb51adc5ec18",
+    "local": "rtl/adc_schmitt.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "3c18e1b642fa98527da9e17826c6b038f1226683efbf2ca26fa0049c39b25729",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/dac_driver.v",
+    "sha256": "04656105766cb090e18ab5282ac5ab7639b84faa7277289e3079d9360b65cf01",
+    "local": "rtl/dac_driver.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "2ce0d0f7cb375bc8ae478e4eb1cf6d576caf99bc28f17836af84b9d3c4382cb4",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/DDS.v",
+    "sha256": "fa0da11b64252e6084e10311527c46170be454e0d425b17ee7797e97f2086674",
+    "local": "rtl/DDS.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行",
+      "正弦ROM抽出为静态数据版本，保留原公式和截断规则"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "36a20c25600f55994acc23558ecd84451d6c2206115015882850945c56501573",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/duty_cycle_meter.v",
+    "sha256": "70225358af17b636ecfd20117210822e369a78b6ba5bdfe0656e1fb1386efdab",
+    "local": "rtl/duty_cycle_meter.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "6b1872cdc3cd78bbeb532bdb471eab0cc745f16ddf69cc52717f8820d8ad2eda",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/freq_divider.v",
+    "sha256": "a4c9e1b1bc85c329313a90b0db249a7a4b50edb73b777d828a67945c5670d0a5",
+    "local": "rtl/freq_divider.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "56bd44d8ea1569126808574deef983366c690bdcbc023ffb6f2419e65798fcc6",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/freq_smooth_iir.v",
+    "sha256": "4bebc6a5efecd56a7cdfe17d2d33963788a34356ec1ee50f324b30660e0176ff",
+    "local": "rtl/freq_smooth_iir.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "a551a67cb41cadc815bf28fbda90b7f4581f84c6510a9e47e2639b8e6fd4793b",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/gate_counter.v",
+    "sha256": "170cb7434dbad44d685c3f58b525d73968333277c4703b588074b9bb50ea2c7e",
+    "local": "rtl/gate_counter.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行",
+      "GATE_TIME移入参数端口列表，保留默认值，修复命名参数覆盖的展开错误"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "9122d9cccc64a4e38336ff105443683cb6187f65a643d8aae525eaddfda85364",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/period_counter_avg.v",
+    "sha256": "919461a337f1b406295abab5ab964889f0fc0d6f623fb3b0ffa787a2dfb6561c",
+    "local": "rtl/period_counter_avg.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "30b54864e0d2dff3d43c888e836bacf1da9bb246d231a2e1f466bd4825ab9e85",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/pinlvjisuan.v",
+    "sha256": "7ed01858249c479f44abd6b3ea18fa99d4a46b7be177c3dac43cf9072965be1c",
+    "local": "rtl/pinlvjisuan.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "c2eed0ef1a306d8711d19c2b23c33aded8d61897de491a0fb517ffd0078acb4c",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/shumaguan.v",
+    "sha256": "65d35e38d646a5e7f436a4991537f9d33aae711b03af7f14755aec0b35e0ceb0",
+    "local": "rtl/shumaguan.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行",
+      "学号显示示例脱敏为0000，仅影响身份展示模式"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "b6fbd99ad674f01839fdba66b82342adb05be201295a3546bbadc8c5d86d7124",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/sweep_generator.v",
+    "sha256": "4a8bc6df7cf32c7ab2030568cc31f41be7b124ab8ee981abe5e3fb43bde42ad0",
+    "local": "rtl/sweep_generator.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "c650a55cb437ef57e6561ad7ff7c4a2a844b75b8628b70628e83021928677663",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/sync_edge.v",
+    "sha256": "5ef7009272ddf26f27360796443cebba4bbac3d825a3f2c4f8145fe14654fdfe",
+    "local": "rtl/sync_edge.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "f2a710c732d4e3dff94d53a7e50b14ba13824eddcfef2169c2f90e8089afa646",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sources_1/new/top.v",
+    "sha256": "9c3aa544234cba94ca3026fed161e75c187adab46a967b244ac0d1ff184d69ad",
+    "local": "rtl/top.v",
+    "changes": [
+      "根据来源编码解码为 UTF-8；统一 LF 换行"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "3f5d839e928c87b6d0b4676aeb4c27b83dd5838d31cca62d7baedff7aedd5e4f",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "project_multi_wave.srcs/sim_1/new/wave.v",
+    "sha256": "5785a4f01087af108fe6b2405bfbcd6da47566500449a85930148f6cec0520d2",
+    "local": "sim/tb_DDS_10MHz.v",
+    "changes": [
+      "统一编码；重命名文件；不改逻辑或引脚映射"
+    ],
+    "source_encoding": "GB18030",
+    "current_sha256": "f26f63cd7267338da1a02b620ce9a13dec95890cf5d63f5c5747ad8766d32165",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "adc.xdc",
+    "sha256": "bf1240a26475bd104843843ba93f10f058e2e56c810e3c14c41fe599dca738e1",
+    "local": "constraints/ego1_pins.xdc",
+    "changes": [
+      "统一编码；重命名文件；不改逻辑或引脚映射"
+    ],
+    "source_encoding": "UTF-8",
+    "current_sha256": "b314fc1677522c4a46465509e91023b5be3822812b18fd03f00a5582538a5aba",
+    "maintenance_note": "后续修复详见 docs/warnings-and-fixes.md；原sha256仍指首次输入文件"
+  },
+  {
+    "original": "sin_wave_256x8.coe",
+    "sha256": "2691202835a3aa97c2c358f90b9d9443681ce533d1b481723ea0cbd4901bf5ad",
+    "local": "data/sin_wave_256x8.coe",
+    "current_sha256": "2691202835a3aa97c2c358f90b9d9443681ce533d1b481723ea0cbd4901bf5ad",
+    "source_encoding": "ASCII-compatible UTF-8",
+    "changes": [
+      "新增用户单独补充的原始COE，与RAR中的mem_init_files/sin_wave_256x8.coe逐字节一致；由此生成MEM，不再用行为模型截断表作为当前波形源"
+    ]
+  }
+]
